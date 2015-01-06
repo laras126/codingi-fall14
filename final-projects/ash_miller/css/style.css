@@ -1,0 +1,445 @@
+/** {
+    outline: 1px solid red;
+}*/
+
+/* ----------------------- */
+/* --------General-------- */
+/* ----------------------- */
+body {
+    background-color: #000000;
+    background-image: url("../images/paper.jpg");
+    background-position: 0 auto;
+    background-size: 100% auto;
+    height: 100%;
+    padding: 5px 50px 10px 50px;
+    padding-bottom:60px;
+}
+
+h1 {
+    color: #bc1e2d;
+    text-align: center;
+    font-family: 'UNDECAPPEDvinyl';
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+    h1 a {
+        color: #bc1e2d;
+        font-family: 'UNDECAPPEDvinyl' cursive;
+        font-size: 70px;
+        font-weight: normal;    
+    }
+
+h2 {
+    color: #bc1e2d;
+    font-family: 'Trinigan';
+    font-size: 60px;
+    text-align: center;
+}
+
+header {
+    background-image: url("../images/crispin-stencil.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 50px 20px 0 20px;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+li {
+    color: #bc1e2d;
+    font-family: 'Trinigan';
+    font-weight: bold;
+    text-decoration: none;
+    color: #bc1e2d;
+}
+
+p {
+    color: #404040;
+    font-family: 'DaVinci', cursive;
+    font-size: 40px;
+    margin: 5px 50px 10px 50px;
+}
+
+.about {
+    background-image: url("../images/wood.jpg");
+    background-position: cover;
+    border-radius: 20px;
+    color: #bc1e2d;
+}
+
+.about p {
+    border-bottom: 1px solid white;
+    color: #ffffff;
+    font-family: 'Trinigan';
+    font-weight: normal;
+    padding: 40px;
+}
+
+.book {
+    background-image: url("../images/paper2.png");
+    background-position: 0 auto;
+    background-size: 100% auto;
+    border-radius: 0 15px 15px 15px;
+    margin-bottom: 10px;
+    padding: 20px 0 10px 0;
+}
+
+.book-thumbnail {
+    background-image: url("../images/book-what-it-is-and-how-it-is-done.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 10px 50px 80px 160px;
+}
+
+.book ul {
+    padding: 0 80px 0 80px;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto; 
+}
+
+.main {
+    text-align: center;
+}
+
+.main img {
+    border: 10px solid white;  
+    margin-bottom: 40px;
+}
+
+.main object {
+    background-image: url("../images/paper2.png");  
+    background-position: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px 0 10px 0;  
+    height: 480px;
+    width: 640px
+}
+
+.main p {
+    padding-bottom: 10px;
+    font-family: 'Trinigan';
+    font-size: 25px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+/* ----------------------- */
+/* -------Blockquote------ */
+/* ----------------------- */
+blockquote {
+    background-image: url("../images/paper2.png");
+    background-position: top right;
+    border-left: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    width: auto;
+}
+
+blockquote:first-letter {
+    color: #bc1e2d;
+    font-size: xx-large;
+}
+
+blockquote credit {  
+    font-style: normal; 
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+/* ----------------------- */
+/* ---------Links--------- */
+/* ----------------------- */
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #bc1e2d;
+}
+
+a:hover {
+    color: #bc1e2d;
+    text-decoration: underline;
+}
+
+/* ----------------------- */
+/* ------Navigation------- */
+/* ----------------------- */
+#nav {
+    border-bottom: 1px solid black;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 50;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+#nav ul {
+    display: none;
+    left: 0;
+    margin: 15px;
+    padding: 0;
+    position: absolute;  
+
+}
+
+#nav li {
+    background-image: url("../images/tag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 70px 20px 70px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 14px 70px 20px 70px;
+    position: relative;
+}
+
+#nav li a { 
+    display: block;
+    padding: 6px 5px 0 5px;
+    font-weight: 700;
+    height: 20px;
+    text-align: center;
+}
+
+#nav li ul li {
+    background-image: url("../images/tag2.png");
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 0 0 4px 0;
+    padding: 0px;
+    width: 100%;  
+}
+
+#nav li a:hover { 
+    color: #ffffff;
+    text-decoration: line-through;
+}
+
+
+
+/* ----------------------- */
+/* ----Expand/Collapse---- */
+/* ----------------------- */
+dl h2 {
+    font-size: 26px;
+    text-align: left;
+}
+    dl h2:hover {
+        color: #969696;    
+    }
+
+dl p {
+    font-family: Open sans;
+    font-size: 26px;
+    padding: 0;
+}
+
+dt {
+    font-family: 'Trinigan';
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc1e2d;
+    padding-left: 24px;
+    cursor: pointer;
+    background-image: url("../images/open.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+    dt.close {
+        background-image: url("../images/close.png");
+    }
+
+    dt:hover {
+        color: #000000;
+    }
+
+dd {
+    margin: 0px 10px 15px 10px;
+}
+
+dd h2 {    
+    background-image: url("../images/open.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #bc1e2d;  
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding-left: 24px;
+}
+
+dd h2.close {
+    background-image: url("../images/close.png");
+}
+
+dd p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.answer {
+    display: none;
+    margin-left: 25px;
+}
+
+#faq-wrapper {
+    background-image: url("../images/paper2.png");
+    background-position: top;
+    border-radius: 5px 20px 25px;
+    margin: 0 50px 0 50px;
+    padding: 10px 0 10px 0;
+}
+
+
+/* ----------------------- */
+/* --------Footer--------- */
+/* ----------------------- */
+.footer {    
+    background-image: url("../images/paper2.png");
+    bottom: 0;  
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+    height: 180px;
+    padding-top: 10px;
+    position: static;
+    width: auto;
+}
+
+.footer img {
+    padding: 2px 10px 0 0;
+}
+
+
+.footer li {
+    float: left;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 20px 0 0;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.push {
+    height: 4em; 
+}    
+
+
+
+.icon {  
+    margin: 0 8px;
+    border-radius:3px;
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+.icon:hover {    
+    -webkit-transform: rotate(350deg);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+
+/* ----------------------- */
+/* ------Newsletter------- */
+/* ----------------------- */
+#subscribe-form {
+    float: right;
+    margin-right: 10px;
+    padding: 5px 10px 0 0;
+    position: relative;
+}
+
+.heading {
+    color: #bc1e2d; 
+    font-family: 'Trinigan';
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+input {
+    border-radius: 10px;
+    color: #bc1e2d;
+    font-family: 'Trinigan';
+    font-size: 18px;
+}
+
+#submitbutton {
+    border-radius: 10px;
+    height: 30px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+/* ----------------------- */
+/* --------Extras--------- */
+/* ----------------------- */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+/* ----------------------- */
+/* --------Webfonts------- */
+/* ----------------------- */
+@font-face { 
+    font-family: UNDECAPPEDvinyl;
+    src: url('fonts/UNDECAPPEDvinyl.eot');
+    src: url('fonts/UNDECAPPEDvinyl.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UNDECAPPEDvinyl.woff') format('woff'),
+         url('fonts/UNDECAPPEDvinyl.ttf') format('truetype'),
+         url('fonts/UNDECAPPEDvinyl.svg#webfont') format('svg');
+}
+
+@font-face { 
+    font-family: DaVinci;
+    src: url('fonts/DaVinci.eot');
+    src: url('fonts/DaVinci.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DaVinci.woff') format('woff'),
+         url('fonts/DaVinci.ttf') format('truetype'),
+         url('fonts/DaVinci.svg#webfont') format('svg');
+}
+
+@font-face { 
+    font-family: Trinigan;
+    src: url('fonts/Trinigan.eot');
+    src: url('fonts/Trinigan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Trinigan.woff') format('woff'),
+         url('fonts/Trinigan.ttf') format('truetype'),
+         url('fonts/Trinigan.svg#webfont') format('svg');
+
+
+
+
+
+
+/* ----------------------- */
+/* --------Slideshow------ */
+/* ----------------------- */
+
